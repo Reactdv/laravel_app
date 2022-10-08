@@ -34,7 +34,7 @@
 import Orders from "./Orders.vue";
 import Inventories from "./Inventories.vue";
 import Employees from "./Employees.vue";
-import { ComponentPublicInstance, DefineComponent, ref } from "vue";
+import {  ref } from "vue";
 
 type ActiveTable =
  typeof Orders | typeof Inventories | typeof Employees ;
